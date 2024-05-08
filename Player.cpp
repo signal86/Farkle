@@ -18,6 +18,7 @@ class Player {
     Dice dice[6] = {Dice(), Dice(), Dice(), Dice(), Dice(), Dice()};
     int turnScore = 0;
     string username;
+    bool ignore;
 
     Player() {}
     Player(string name) : username(name) { }
